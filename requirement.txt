@@ -3,4 +3,4 @@ soundfile
 transformers
 torch
 accelerate
-streamlit
+streamlit <= 1.12.0
