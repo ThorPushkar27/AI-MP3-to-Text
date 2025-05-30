@@ -1,0 +1,6 @@
+pydub
+soundfile
+transformers
+torch
+accelerate
+streamlit
