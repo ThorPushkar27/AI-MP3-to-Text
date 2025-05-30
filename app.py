@@ -11,7 +11,7 @@ import os
 # To avoid reloading the model again and again, cache it. Used specific streamlit function for that.
 @st.cache(allow_output_mutation=True)
 def load_whisper_model():
-    model_id = "openai/whisper-base"
+    model_id = "openai/whisper-tiny"
     torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
     
     model = AutoModelForSpeechSeq2Seq.from_pretrained(
